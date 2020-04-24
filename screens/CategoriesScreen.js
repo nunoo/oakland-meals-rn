@@ -5,6 +5,8 @@ import {
   StyleSheet,
   FlatList,
   TouchableOpacity,
+  Image,
+  Button,
 } from 'react-native';
 
 import { CATEGORIES } from '../data/dummy-data';
@@ -40,10 +42,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   gridItems: {
+    justifyContent: 'center',
+    alignItems: 'center',
     flex: 1,
     margin: 15,
     height: 150,
-    backgroundColor: 'pink',
+    backgroundColor: 'lightgrey',
   },
 });
 
